@@ -8,7 +8,20 @@
 </head>
 <body>
     <header>
+        <div class="top-bar">
+            <span>Fast Delivery</span>
+            <span>Secure Payment</span>
+            <span>Scalable Solutions</span>
+        </div>
         <h1>Welcome to North Cloud - Your Trusted Cloud Provider</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/store">Store</a></li>
+                <li><a href="/services">Services & Assortment</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
         <p>Leading the way in cloud solutions for small Canadian businesses</p>
         <a href="/store">Shop Now</a>
     </header>

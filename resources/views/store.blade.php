@@ -8,7 +8,20 @@
 </head>
 <body>
     <header>
+        <div class="top-bar">
+            <span>Fast Delivery</span>
+            <span>Secure Payment</span>
+            <span>Scalable Solutions</span>
+        </div>
         <h1>Store</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/store">Store</a></li>
+                <li><a href="/services">Services & Assortment</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <h2>Bestsellers</h2>
     <div>
