@@ -1,3 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+:root {
+  --primary-color: #4a4a4a;
+  --secondary-color: #ffcc00;
+  --background-color: #f4f4f4;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+}
+
+@view-transition {
+    navigation: auto;
+}
