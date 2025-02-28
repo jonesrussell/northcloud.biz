@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary-color: #4a4a4a;
@@ -10,9 +12,10 @@
 body {
   background-color: var(--background-color);
   color: var(--primary-color);
+  padding: 1.25rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     header nav ul {
         flex-direction: column;
     }
