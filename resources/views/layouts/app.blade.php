@@ -28,5 +28,8 @@
     </main>
 
     <footer>© 2025 North Cloud</footer>
+
+    <!-- Include app.js here -->
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html> 
